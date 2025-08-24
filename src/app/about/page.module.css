@@ -1,0 +1,55 @@
+/* src/app/about/page.module.css */
+.container {
+  background: linear-gradient(120deg, #eef2f3 0%, #8ec5fc 100%);
+  min-height: 80vh;
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 20px rgba(50, 120, 255, 0.05);
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.heading {
+  color: #2048ae;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  letter-spacing: -2px;
+  text-shadow: 0 2px 6px rgba(120,120,255,0.09);
+}
+
+.list {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(180, 180, 240, 0.08);
+  margin-bottom: 1rem;
+}
+
+.item {
+  color: #283b52;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+.paragraph {
+  color: #444;
+  font-size: 1.09rem;
+  margin-bottom: 0.8rem;
+}
+
+.button {
+  background: #2048ae;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 3px 10px rgba(32, 72, 174, 0.09);
+}
+.button:hover {
+  background: #1a376d;
+}
